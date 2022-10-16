@@ -1,10 +1,8 @@
 name: default
-
 kind: pipeline
 type: docker
-
 steps:
   - name: backend
-    image: alpane
+    image: alpine
     commands:
       - echo "Hello world"
